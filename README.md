@@ -1,5 +1,9 @@
 # Mystery Word
 Github link - https://github.com/momentum-team-7/python-wheel-of-fortune-Arthurstuart.git
+rel path:
+wheeloffortune.py
+wof_words.txt
+README.md
 ## Description
 
 Implement the game of Mystery Word.
@@ -37,20 +41,20 @@ The game must be interactive; the flow of the game should go as follows:
 
 2. At the start of the game, let the user know how many letters the computer's
    word contains.
-   - Count the number of letters in the word
-   - Display one blank for each word (look up the join method) 
+   <!-- - Count the number of letters in the word -->
+   <!-- - Display one blank for each word (look up the join method)  -->
 
 3. Ask the user to supply one guess (i.e. letter) per round. This letter can be
    upper or lower case and it should not matter. If a user enters more than one
    letter, tell them the input is invalid and let them try again.
-   - Ask the user to guess a letter 
+   <!-- - Ask the user to guess a letter  -->
    - Store letter guessed
    - Create an error message for more than one letter at once.
 
 4. Let the user know if their guess appears in the computer's word.
-- Create process to determine whether a guess is correct. 
+<!-- - Create process to determine whether a guess is correct.  -->
 - Store the guesses (which one of the letters have correctly been guessed? Which ones have been incorrectly guessed?)
-- Alert player that they've guessed a letter correctly (print they've gotten it right)
+<!-- - Alert player that they've guessed a letter correctly (print they've gotten it right) -->
 
 5. Display the partially guessed word, as well as letters that have not been
    guessed. For example, if the word is BOMBARD and the letters guessed are a, b,
